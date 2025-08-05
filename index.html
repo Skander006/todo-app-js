@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taskly</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="header__container">
+                <h1 class="name">Taskly</h1>
+                <div id="dark-mode" class="dark-mode">
+                    <i id="icon-moon" class="fas fa-moon"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <section class="hero">
+                <div class="add-bar">
+                    <input id="add__input" class="add__input" type="text" placeholder="Task Name..." required>
+                    <button id="add__button" class="add__button">Add Task</button>
+                </div>
+                <div class="filters">
+                    <select name="filter" id="filter">
+                        <option value="all">All</option>
+                        <option value="completed">Completed</option>
+                        <option value="uncompleted">Uncompleted</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="list">
+                <ul class="task-list" id="task-list">
+                    <!--Task List-->
+                </ul>
+            </section>
+
+        </div>
+        
+        <footer>
+            <h3>© 2025 Taskly</h3>
+            <div class="footer__icons">
+                <i class="fa-brands fa-linkedin" style="color: #0348bf;"></i>
+                <i class="fa-brands fa-github icone-github"></i>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
