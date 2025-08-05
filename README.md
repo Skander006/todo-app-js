@@ -4,17 +4,17 @@ SmartTasks is a simple and interactive To-Do List application built with **HTML*
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Add new tasks easily  
-- 🗑️ Delete individual tasks  
+- Add new tasks easily  
+- ❌ Delete individual tasks  
 - ✔️ Mark tasks as completed  
 - 🔍 Filter tasks by:
   - All
   - Completed
   - Incomplete
-- 💾 Data persistence with `localStorage`  
-- 🎯 Smooth animations for adding/removing tasks  
+- Data persistence with `localStorage`  
+- Smooth animations for adding/removing tasks  
 - 🌙 **Toggle Dark Mode**  
 - 📱 Fully responsive design  
 
@@ -68,8 +68,8 @@ SmartTasks is a simple and interactive To-Do List application built with **HTML*
 
 ## Demo
 
-👉 [Live Preview on GitHub Pages](https://your-username.github.io/SmartTasks/)  
-*(Replace with your actual link)*
+👉 [Live Preview on GitHub Pages]([(https://skander006.github.io/todo-app-js/)])  
+
 
 ---
 
